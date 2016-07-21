@@ -1,0 +1,145 @@
+﻿@model FTrans.SupplierSuccess.ViewModels.LoginViewModel
+@{
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    @Styles.Render("~/Content/site")
+    @Styles.Render("~/Content/semanticui")
+</head>
+<body>
+
+    <style>
+        body {
+            /*background-color: #DADADA;*/
+        }
+
+        .abs-center {
+            overflow: auto;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: fixed;
+            z-index: 999;
+            padding: 12px;
+        }
+
+        span.ui.label.field-validation-valid {
+            display: none;
+        }
+
+        .login-wrapper {
+            width: 350px;
+            height: 440px;
+        }
+
+        .login-content {
+            margin-top: 12px;
+            /*padding: 24px;*/
+        }
+
+        #login-form {
+            margin-bottom: 12px;
+        }
+
+        .foot-note {
+            text-align: center;
+            margin-top: 24px;
+            width: 100%;
+            color: #ababab;
+            font-size: 12px;
+        }
+    </style>
+
+    <div style="position:relative;overflow:auto;">
+        <div class="login-wrapper abs-center">
+
+            <div class="">
+                <div class="image">
+                    <img src="/images/ss_logo.png">
+                </div>
+                <div class="login-content">
+                    <div class="text-danger"></div>
+
+                    @*<form id="login-form" class="ui form" method="post" role="form" class="clearfix" action="/Home/Login">*@
+
+                    @using (Html.BeginForm("Login", "home/", new { area = "" }, FormMethod.Post, new { id = "frmSubmit",@class="ui form"  , defaultbutton = "login", defaultfocus = "Email" }))
+                    {
+
+                        <div class="field">
+                            <label class="control-label" for="Email">Username</label>
+                            @*<input class="form-control" type="email" 
+                                    data-val="true" 
+                                data-val-email="The Email field is not a valid e-mail address." 
+                                data-val-required="The Email field is required." id="Email" name="Email" value="" />
+                                <span class="ui pointing red basic label field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>*@
+
+                            @Html.TextBoxFor(m => m.EmailId, new
+                           {
+                               @class = "form-control",
+                               type = "email",
+                               id = "Email",
+                               name = "Email",
+                               @data_val = "true",
+                               @data_val_required = "The Email field is required.",
+                               data_val_email = "The Email field is not a valid e-mail address.",
+                               data_val_maxlength = "Email length incorrect",
+                               data_val_maxlength_max = "50",
+                               data_val_minlength = "Email length incorrect",
+                               data_val_minlength_min = "6",
+                               autofocus = "autofocus"
+
+                           })
+
+
+
+
+                        </div>
+                        <div class="field">
+                            <label class="control-label" for="Password">Password</label>
+                            @*<input class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" />
+                                <span class="ui pointing red basic label field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>*@
+
+                            @Html.PasswordFor(m => m.Password, new
+                       {
+                           @class = "form-control",
+                           id = "Password",
+                           name = "Password",
+                           type = "password",
+                           @data_val = "true",
+                           @data_val_required = "The Password field is required.",
+
+                       })
+
+
+
+                        </div>
+
+                        <button type="submit" class="signin-action ui button">Sign In</button>
+                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KOM6utWdn1EobG_n9xHfvkV1Ea--84oWifXj3HraiZ5gGJtQqQ5Qe1wd8-KtgNeuTzVef_Pe2bASQJ7fFyElFSt3ejNzg5MUDxzZY1uiJDG0ebWj8FzJqF05P_-Y9k3spC7TLe95MGRXiAw696SVyc" />
+                    }
+                    @*</form>*@
+                    <a class="forgot-action" href="/Account/ForgotPassword">Forgot your password?</a>
+                </div>
+                <div class="foot-note">
+                    Powered by FTRANS Copyright © 2016
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    <script>(window.jQuery || document.write("\u003Cscript src=\u0022\/lib\/jquery\/dist\/jquery.min.js\u0022\u003E\u003C\/script\u003E"));</script>
+    @Scripts.Render("~/bundles/scripts")
+</body>
+</html>

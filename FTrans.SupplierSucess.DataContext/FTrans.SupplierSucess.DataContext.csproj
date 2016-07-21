@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE01D2EA-E027-4719-954E-D8124E49BBF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FTrans.SupplierSucess.DataContext</RootNamespace>
+    <AssemblyName>FTrans.SupplierSucess.DataContext</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataEntities\Account.cs" />
+    <Compile Include="DataEntities\AccountTransaction.cs" />
+    <Compile Include="DataEntities\Address.cs" />
+    <Compile Include="DataEntities\AddressBase.cs" />
+    <Compile Include="DataEntities\AddressHistory.cs" />
+    <Compile Include="DataEntities\AddressType.cs" />
+    <Compile Include="DataEntities\Bank.cs" />
+    <Compile Include="DataEntities\BankBase.cs" />
+    <Compile Include="DataEntities\BankHistory.cs" />
+    <Compile Include="DataEntities\BankXBuyer.cs" />
+    <Compile Include="DataEntities\BankXBuyerBase.cs" />
+    <Compile Include="DataEntities\BankXBuyerHistory.cs" />
+    <Compile Include="DataEntities\Buyer.cs" />
+    <Compile Include="DataEntities\BuyerBase.cs" />
+    <Compile Include="DataEntities\BuyerHistory.cs" />
+    <Compile Include="DataEntities\BuyerXSupplier.cs" />
+    <Compile Include="DataEntities\BuyerXSupplierBase.cs" />
+    <Compile Include="DataEntities\BuyerXSupplierHistory.cs" />
+    <Compile Include="DataEntities\Charge.cs" />
+    <Compile Include="DataEntities\ChargeBase.cs" />
+    <Compile Include="DataEntities\ChargeHistory.cs" />
+    <Compile Include="DataEntities\Country.cs" />
+    <Compile Include="DataEntities\CreditMemo.cs" />
+    <Compile Include="DataEntities\CreditMemoBase.cs" />
+    <Compile Include="DataEntities\CreditMemoHistory.cs" />
+    <Compile Include="DataEntities\FinancialUploadFile.cs" />
+    <Compile Include="DataEntities\Funding.cs" />
+    <Compile Include="DataEntities\FundingChoice.cs" />
+    <Compile Include="DataEntities\FundingDetails.cs" />
+    <Compile Include="DataEntities\IDataEntity.cs" />
+    <Compile Include="DataEntities\ImportanceLevel.cs" />
+    <Compile Include="DataEntities\Invoice.cs" />
+    <Compile Include="DataEntities\InvoiceBase.cs" />
+    <Compile Include="DataEntities\InvoiceFile.cs" />
+    <Compile Include="DataEntities\InvoiceFileDetail.cs" />
+    <Compile Include="DataEntities\InvoiceHistory.cs" />
+    <Compile Include="DataEntities\Log.cs" />
+    <Compile Include="DataEntities\NachaFile.cs" />
+    <Compile Include="DataEntities\NachaFileDetail.cs" />
+    <Compile Include="DataEntities\Notification.cs" />
+    <Compile Include="DataEntities\NotificationOpt.cs" />
+    <Compile Include="DataEntities\OA.cs" />
+    <Compile Include="DataEntities\OABase.cs" />
+    <Compile Include="DataEntities\OAHistory.cs" />
+    <Compile Include="DataEntities\ReferenceType.cs" />
+    <Compile Include="DataEntities\RemittanceFile.cs" />
+    <Compile Include="DataEntities\RemittanceFileDetail.cs" />
+    <Compile Include="DataEntities\ReportFrequency.cs" />
+    <Compile Include="DataEntities\Sponsor.cs" />
+    <Compile Include="DataEntities\SponsorBase.cs" />
+    <Compile Include="DataEntities\SponsorHistory.cs" />
+    <Compile Include="DataEntities\SponsorXBank.cs" />
+    <Compile Include="DataEntities\SponsorXBankBase.cs" />
+    <Compile Include="DataEntities\SponsorXBankHistory.cs" />
+    <Compile Include="DataEntities\State.cs" />
+    <Compile Include="DataEntities\Supplier.cs" />
+    <Compile Include="DataEntities\SupplierBase.cs" />
+    <Compile Include="DataEntities\SupplierHistory.cs" />
+    <Compile Include="DataEntities\TransactionType.cs" />
+    <Compile Include="DataEntities\TransactionTypeXAccounts.cs" />
+    <Compile Include="DataEntities\User.cs" />
+    <Compile Include="DataEntities\UserNotification.cs" />
+    <Compile Include="DataEntities\UserRole.cs" />
+    <Compile Include="DataEntities\UserType.cs" />
+    <Compile Include="FTransDBContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -46,5 +46,24 @@ namespace FTrans.SupplierSuccess.Core
         }
     }
 
+    public interface IStateContextContainer
+    {
+        void AddVarriable(string VarriableName, object Value);
+
+        object GetVarriable(string VarriableName);
+
+        object this[string Key]
+        {
+            get;
+            set;
+        }
+
+        object this[int Index]
+        {
+            get;
+            set;
+        }
+    }
+
 
 }

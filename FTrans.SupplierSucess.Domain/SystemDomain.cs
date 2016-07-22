@@ -23,7 +23,7 @@ namespace FTrans.SupplierSuccess.Domain
         }
 
         /// <summary>
-        /// ApplicationUser AuthenticateUser - 
+        /// ApplicationUser AuthenticateUser -  
         /// </summary>
         /// <param name="loginInformation"></param>
         /// <returns></returns>

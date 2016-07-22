@@ -2,42 +2,188 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+        @Styles.Render("~/Content/site")
+        @Styles.Render("~/Content/semanticui")
+        @Styles.Render("~/Content/sitebar")
 
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+<body class="with-bg">
+    <div class="app-wrapper">
+        <div class="app-container">
+            <div class="side-nav-wrapper">
+                <div class="side-nav-header">
+                    <button class="sidenav-trigger ui icon button"><i class="remove icon"></i></button>
+                    <div class="logo">
+                        <img class="ui image" src="/images/ss_logo_tran.png">
+                    </div>
+                </div>
+                <nav class="side-nav">
+
+                  
+
+                        <ul>
+                            <li class="selected">
+                                <a href="/Sponsor">
+                                    <i class="dashboard icon"></i>
+                                    <span class="hide-on-fold">Overview</span>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="/Sponsor/Invoices">
+                                    <i class="text file outline icon"></i>
+                                    <span class="hide-on-fold">Invoices</span>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="/Sponsor/Invoices?PaymentStatus=SupplierUnpaid" title="Payments due to Supplier">
+                                            <i class="share icon"></i>
+                                            <span class="hide-on-fold">Pending</span>
+                                            <div class="ui grey label horizontal">13</div>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a href="/Sponsor/Invoices?PaymentStatus=SponsorUnpaid" title="Payments due from Buyer">
+                                            <i class="reply icon"></i>
+                                            <span class="hide-on-fold">Due</span>
+                                            <div class="ui grey label horizontal">198</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Sponsor/Invoices?PaymentStatus=SponsorPaid&amp;PaymentStatus=SupplierPaid">
+                                            <i class="check circle outline icon"></i>
+                                            <span class="hide-on-fold">Closed</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/Sponsor/Buyers">
+                                    <i class="user icon"></i>
+                                    <span class="hide-on-fold">Buyers</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Sponsor/Suppliers">
+                                    <i class="users icon"></i>
+                                    <span class="hide-on-fold">Suppliers</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#0">
+                                    <i class="line chart icon"></i>
+                                    <span class="hide-on-fold">Reports</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#0">
+                                    <i class="setting icon"></i>
+                                    <span class="hide-on-fold">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                </nav>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
-                </ul>
-                @*@Html.Partial("_LoginPartial")*@
+            <main class="app-main-wrapper">
+                <div class="app-main-content">
+                    @if (IsSectionDefined("header"))
+                    {
+                        @RenderSection("header", required: false)
+
+                    }
+                    else
+                    {
+                        <div class="dash-header">
+                            <div class="embedded-header">
+                                <a class="sidenav-trigger"><i class="sidebar icon"></i></a>
+
+                                <div class="user-wrapper">
+                                    <div id="current-user-dropdown" class="user-dropdown ui pointing top right dropdown" tabindex="0">
+                                        <a>
+                                            <svg class="user-icon" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"></path>
+                                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                            </svg>
+                                        </a>
+                                        <div class="menu" tabindex="-1">
+                                            <a class="item" href="#">Manage Account</a>
+                                            <a class="user-link action item" href="javascript:document.getElementById('signoff-form').submit()">Sign Out</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="user-info">
+                                        <span class="user-role">sponsor</span>
+                                        <span class="user-name">rschansman@ftrans.net</span>
+                                        <form id="signoff-form" method="post" role="link" action="/Account/LogOff"><input name="__RequestVerificationToken" type="hidden" value="CfDJ8KOM6utWdn1EobG_n9xHfvnCd8vrzMUESioxN3F6yUWLjxR_dEyBFvdtYhtDrW53QTqMlOa0x6QaFWF0ElzlNHEuGegZ-yraKbF22-zANIYtuX2PBAXidHeF-M40ubx93uj_GYGOPUfM72gooMeuZKVHptMrbrM5I6XqJDnFEL_ZggfLIhwrDDlR0MzUZSjFyw"></form>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="dash-header-item">
+                                <em class="dollar">1,973,243.10</em>
+                                <span class="dash-item-label">Total Pending</span>
+                                <div class="scount">
+                                    <span>13</span> invoices
+                                </div>
+                            </div>
+                            <div class="dash-header-item">
+                                <em class="dollar">35,738,425.97</em>
+                                <span class="dash-item-label">Total Due</span>
+                                <div class="scount">
+                                    <span>198</span> invoices
+                                </div>
+                            </div>
+                            <div class="dash-header-item item">
+                                <em class="dollar">16,514,026.41</em>
+                                <span class="dash-item-label">Total Past Due</span>
+                                <div class="scount">
+                                    <span>93</span> invoices
+                                </div>
+                            </div>
+                            <div class="dash-header-item item">
+                                <em class="dollar">2,495,594.93</em>
+                                <span class="dash-item-label">Fees Collected YTD</span>
+                                <div class="scount">
+                                    <span>283</span> invoices
+                                </div>
+                            </div>
+
+                        </div>
+                    }
+                    @RenderBody()
+                </div>
+            </main>
+
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                Copyright © @(DateTime.UtcNow.Year) FTRANS
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-        </footer>
+
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    <environment names="Development">
+        <script src="~/lib/jquery/jquery.js"></script>
+        <script src="~/lib/semantic-ui/semantic.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        @Scripts.Render("~/bundles/scripts")
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    @*@RenderSection("scripts", required: false)*@
+
 </body>
 </html>

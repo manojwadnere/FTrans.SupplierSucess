@@ -22,6 +22,11 @@ namespace FTrans.SupplierSuccess.Domain
 
         }
 
+        /// <summary>
+        /// ApplicationUser AuthenticateUser - 
+        /// </summary>
+        /// <param name="loginInformation"></param>
+        /// <returns></returns>
         public ApplicationUser AuthenticateUser(LoginViewModel loginInformation)
         {
             try

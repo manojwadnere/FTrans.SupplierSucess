@@ -17,6 +17,7 @@ namespace UI
 
             bundles.Add(new StyleBundle("~/Content/site").Include("~/Content/site.min.css"));
             bundles.Add(new StyleBundle("~/Content/semanticui").Include("~/Content/semantic-ui/semantic.min.css"));
+            bundles.Add(new StyleBundle("~/Content/sitebar").Include("~/Content/_sidenav.scss"));
         }
     }
 }

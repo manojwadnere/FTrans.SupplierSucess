@@ -1,0 +1,12 @@
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\FTrans.SupplierSucess.Tests.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\FTrans.SupplierSucess.Tests.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.csprojResolveAssemblyReference.cache
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.pdb
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\FTrans.SupplierSucess.Tests.dll
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\FTrans.SupplierSucess.Tests.pdb
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.csprojResolveAssemblyReference.cache
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.dll
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSucess.Tests\obj\Debug\FTrans.SupplierSucess.Tests.pdb

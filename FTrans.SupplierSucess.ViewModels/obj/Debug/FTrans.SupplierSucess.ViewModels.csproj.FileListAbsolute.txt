@@ -1,0 +1,11 @@
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSucess.ViewModels.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSucess.ViewModels.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSuccess.Core.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSucess.Utilities.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSuccess.Core.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSuccess.Resources.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\bin\Debug\FTrans.SupplierSucess.Utilities.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\obj\Debug\FTrans.SupplierSucess.ViewModels.csprojResolveAssemblyReference.cache
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\obj\Debug\FTrans.SupplierSucess.ViewModels.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.ViewModels\obj\Debug\FTrans.SupplierSucess.ViewModels.pdb

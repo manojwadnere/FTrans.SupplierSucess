@@ -2,11 +2,139 @@
     ViewBag.Title = "Index";
 }
 
-<img class="ui image" src="/images/ss_logo_tran.png">
-<br />
+
+<div class="page-wrapper">
+    <h2>Overview</h2>
+
+    <div class="chart-wrapper">
+        <a class="ui grey ribbon label">Fees Collected</a>
+        <div id="chart-container" style="min-width: 310px; height: 275px; margin: 0 auto" data-highcharts-chart="0"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 928px; height: 275px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="928" height="275"><desc>Created with Highcharts 4.2.5</desc><defs><clipPath id="highcharts-1"><rect x="0" y="0" width="859" height="225"></rect></clipPath></defs><rect x="0" y="0" width="928" height="275" fill="#FFFFFF" class=" highcharts-background"></rect><g class="highcharts-grid"></g><g class="highcharts-grid"></g><g class="highcharts-axis"><path fill="none" d="M 17.5 235 L 17.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 189.5 235 L 189.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 350.5 235 L 350.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 522.5 235 L 522.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 688.5 235 L 688.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 860.5 235 L 860.5 245" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 10 235.5 L 869 235.5" stroke="#C0D0E0" stroke-width="1"></path></g><g class="highcharts-axis"></g><g class="highcharts-series-group"><path fill="#b0e079" fill-opacity="0.25" d="M 0 0"></path><g class="highcharts-series highcharts-series-0" transform="translate(10,10) scale(1 1)" clip-path="url(#highcharts-1)"><path fill="none" d="M 8.421568627451 40.924968750000005 C 8.421568627451 40.924968750000005 111.4749742002044 192.9817575 180.17724458204 192.9817575 C 244.44711042311602 192.9817575 276.582043343654 130.71774130000068 340.85190918473 107.37942 C 409.554179566566 82.43155930000067 443.905314757484 84.79003925409819 512.60758513932 72.2663025 C 579.093653250776 60.146557254098184 612.336687306504 45.770714999999996 678.82275541796 45.770714999999996 C 747.525025799796 45.770714999999996 850.57843137255 179.8287375 850.57843137255 179.8287375" stroke="#b0e079" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M -1.5784313725489998 40.924968750000005 L 8.421568627451 40.924968750000005 C 8.421568627451 40.924968750000005 111.4749742002044 192.9817575 180.17724458204 192.9817575 C 244.44711042311602 192.9817575 276.582043343654 130.71774130000068 340.85190918473 107.37942 C 409.554179566566 82.43155930000067 443.905314757484 84.79003925409819 512.60758513932 72.2663025 C 579.093653250776 60.146557254098184 612.336687306504 45.770714999999996 678.82275541796 45.770714999999996 C 747.525025799796 45.770714999999996 850.57843137255 179.8287375 850.57843137255 179.8287375 L 860.57843137255 179.8287375" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class=" highcharts-tracker" style=""></path></g><g class="highcharts-markers highcharts-series-0 highcharts-tracker" transform="translate(10,10) scale(1 1)" clip-path="url(#highcharts-2)" style=""><path fill="white" d="M 850 175.8287375 C 855.328 175.8287375 855.328 183.8287375 850 183.8287375 C 844.672 183.8287375 844.672 175.8287375 850 175.8287375 Z" stroke="#7cb5ec" stroke-width="3"></path><path fill="white" d="M 678 41.770714999999996 C 683.328 41.770714999999996 683.328 49.770714999999996 678 49.770714999999996 C 672.672 49.770714999999996 672.672 41.770714999999996 678 41.770714999999996 Z" stroke="#7cb5ec" stroke-width="3"></path><path fill="white" d="M 512 68.2663025 C 517.328 68.2663025 517.328 76.2663025 512 76.2663025 C 506.672 76.2663025 506.672 68.2663025 512 68.2663025 Z" stroke="#7cb5ec" stroke-width="3"></path><path fill="white" d="M 340 103.37942 C 345.328 103.37942 345.328 111.37942 340 111.37942 C 334.672 111.37942 334.672 103.37942 340 103.37942 Z" stroke="#7cb5ec" stroke-width="3"></path><path fill="white" d="M 180 188.9817575 C 185.328 188.9817575 185.328 196.9817575 180 196.9817575 C 174.672 196.9817575 174.672 188.9817575 180 188.9817575 Z" stroke="#7cb5ec" stroke-width="3"></path><path fill="white" d="M 8 36.924968750000005 C 13.328 36.924968750000005 13.328 44.924968750000005 8 44.924968750000005 C 2.6719999999999997 44.924968750000005 2.6719999999999997 36.924968750000005 8 36.924968750000005 Z" stroke="#7cb5ec" stroke-width="3"></path></g></g><g class="highcharts-legend"><g><g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels"><text x="28.609375" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>Jan '16</tspan></text><text x="190.17724458204336" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>Feb '16</tspan></text><text x="350.85190918472654" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>Mar '16</tspan></text><text x="522.607585139319" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>Apr '16</tspan></text><text x="688.8227554179567" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>May '16</tspan></text><text x="860.5784313725491" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:172px;text-overflow:clip;" text-anchor="middle" transform="translate(0,0)" y="254" opacity="1"><tspan>Jun '16</tspan></text></g><g class="highcharts-axis-labels highcharts-yaxis-labels"><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="238" opacity="1">$100k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="200" opacity="1">$200k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="163" opacity="1">$300k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="125" opacity="1">$400k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="88" opacity="1">$500k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="50" opacity="1">$600k</text><text x="884" style="color:#606060;cursor:default;font-size:11px;fill:#606060;width:296px;text-overflow:clip;" text-anchor="start" transform="translate(0,0)" y="13" opacity="1">$700k</text></g><g class="highcharts-tooltip" style="cursor:default;padding:0;pointer-events:none;white-space:nowrap;" transform="translate(1,-9999)" opacity="0" visibility="visible"><path fill="none" d="M 3.5 0.5 L 10.5 0.5 16.5 -5.5 22.5 0.5 168 0.5 C 171.5 0.5 171.5 0.5 171.5 3.5 L 171.5 44.5 C 171.5 47.5 171.5 47.5 168.5 47.5 L 3.5 47.5 C 0.5 47.5 0.5 47.5 0.5 44.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" d="M 3.5 0.5 L 10.5 0.5 16.5 -5.5 22.5 0.5 168 0.5 C 171.5 0.5 171.5 0.5 171.5 3.5 L 171.5 44.5 C 171.5 47.5 171.5 47.5 168.5 47.5 L 3.5 47.5 C 0.5 47.5 0.5 47.5 0.5 44.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" d="M 3.5 0.5 L 10.5 0.5 16.5 -5.5 22.5 0.5 168 0.5 C 171.5 0.5 171.5 0.5 171.5 3.5 L 171.5 44.5 C 171.5 47.5 171.5 47.5 168.5 47.5 L 3.5 47.5 C 0.5 47.5 0.5 47.5 0.5 44.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" isShadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(249, 249, 249, .85)" d="M 3.5 0.5 L 10.5 0.5 16.5 -5.5 22.5 0.5 168 0.5 C 171.5 0.5 171.5 0.5 171.5 3.5 L 171.5 44.5 C 171.5 47.5 171.5 47.5 168.5 47.5 L 3.5 47.5 C 0.5 47.5 0.5 47.5 0.5 44.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#b0e079" stroke-width="1"></path><text x="8" style="font-size:12px;color:#333333;fill:#333333;" y="20"><tspan style="font-size: 10px">January 2016</tspan><tspan style="fill:#b0e079" x="8" dy="15">●</tspan><tspan dx="0"> Collected: </tspan><tspan style="font-weight:bold" dx="0">$590,866.75</tspan></text></g></svg></div></div>
+    </div>
+
+</div>
 
 
+<div class="ui equal width left aligned padded grid stackable">
+    <div class="row">
+        <div class="olive column">
+            <div id="dash-due-list" class="dash-list-section light">
+                <h3>Payments Coming Due</h3>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=0&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">0 - 5 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=0&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">2,665,196.31</span>
+                        <em>14</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=6&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">6 - 10 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=6&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">2,534,215.32</span>
+                        <em>14</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=11&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">11 - 30 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=11&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">14,024,987.93</span>
+                        <em>77</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=30&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+
+                    <div class="due-item-header">
+                        <span class="title">30+ days</span>
+                        <a href="/Sponsor/Invoices?fromdue=30&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">0.00</span>
+                        <em>0</em> invoices
+                    </div>
+                </div>
 
 
-Dummy Page
+            </div>
 
+        </div>
+        <div class="column black">
+            <div id="dash-overdue-list" class="dash-list-section dark">
+                <h3>Payments Past Due</h3>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=-1&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">1 - 5 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=-1&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">3,407,977.14</span>
+                        <em>22</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=-6&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">6 - 10 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=-6&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">2,065,436.54</span>
+                        <em>12</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=-11&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">11 - 30 days</span>
+                        <a href="/Sponsor/Invoices?fromdue=-11&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">7,165,164.25</span>
+                        <em>39</em> invoices
+                    </div>
+                </div>
+                <div class="due-item">
+                    <a class="arrow" href="/Sponsor/Invoices?fromdue=-30&amp;paymentStatus=SponsorUnpaid">
+                        <i class="angle right icon" aria-hidden="true"></i>
+                    </a>
+                    <div class="due-item-header">
+                        <span class="title">30+ days</span>
+                        <a href="/Sponsor/Invoices?fromdue=-30&amp;paymentStatus=SponsorUnpaid">view</a>
+                    </div>
+                    <div class="due-item-body">
+                        <span class="amount dollar">3,875,448.48</span>
+                        <em>20</em> invoices
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

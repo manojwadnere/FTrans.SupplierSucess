@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTrans.SupplierSuccess.ViewModels", "FTrans.SupplierSucess.ViewModels\FTrans.SupplierSuccess.ViewModels.csproj", "{90C563C9-B2F0-47BB-AAF7-10EF45DAE729}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FTrans.SupplierSucess.Database", "FTrans.SupplierSucess.Database\FTrans.SupplierSucess.Database.sqlproj", "{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,12 @@ Global
 		{90C563C9-B2F0-47BB-AAF7-10EF45DAE729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C563C9-B2F0-47BB-AAF7-10EF45DAE729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C563C9-B2F0-47BB-AAF7-10EF45DAE729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +87,6 @@ Global
 		{5BD850E1-6724-4B1E-8FA7-6F53E88DECED} = {458AC5AE-3194-4E9F-AD9C-A380EC784517}
 		{0BC6A64B-4AF6-4799-9437-C6C7CC29B3FF} = {5FF2D934-816E-415C-B302-361E8E7A2E09}
 		{90C563C9-B2F0-47BB-AAF7-10EF45DAE729} = {889CB6CA-9422-4265-AA0D-6B9A666044CF}
+		{A4071CC4-28DD-4EE7-AEE7-A5C8657C583E} = {49975942-3D8A-41CE-B4E0-265134AFD83B}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,14 @@
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\bin\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\bin\Debug\FTrans.SupplierSuccess.Resources.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.Messages.resources
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.csproj.GenerateResource.Cache
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.csprojResolveAssemblyReference.cache
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\bin\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\bin\Debug\FTrans.SupplierSuccess.Resources.pdb
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.csprojResolveAssemblyReference.cache
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.Messages.resources
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.csproj.GenerateResource.Cache
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\GitRepo_SC-Web\SCF-Web\FTrans.SupplierSucess\FTrans.SupplierSuccess.Resources\obj\Debug\FTrans.SupplierSuccess.Resources.pdb

@@ -1,0 +1,9 @@
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSucess.Utilities.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSucess.Utilities.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSuccess.Core.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSuccess.Resources.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSuccess.Core.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\bin\Debug\FTrans.SupplierSuccess.Resources.pdb
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\obj\Debug\FTrans.SupplierSucess.Utilities.csprojResolveAssemblyReference.cache
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\obj\Debug\FTrans.SupplierSucess.Utilities.dll
+D:\Manoj\FTrans\FTrans.SupplierSucess\FTrans.SupplierSucess.Utilities\obj\Debug\FTrans.SupplierSucess.Utilities.pdb

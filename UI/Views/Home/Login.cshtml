@@ -69,7 +69,6 @@
                 <div class="login-content">
                     <div class="text-danger"></div>
 
-                    @*<form id="login-form" class="ui form" method="post" role="form" class="clearfix" action="/Home/Login">*@
 
                     @using (Html.BeginForm("Login", "home/", new { area = "" }, FormMethod.Post, new { id = "frmSubmit",@class="ui form"  , defaultbutton = "login", defaultfocus = "Email" }))
                     {
@@ -126,7 +125,7 @@
                         <button type="submit" class="signin-action ui button">Sign In</button>
                         <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KOM6utWdn1EobG_n9xHfvkV1Ea--84oWifXj3HraiZ5gGJtQqQ5Qe1wd8-KtgNeuTzVef_Pe2bASQJ7fFyElFSt3ejNzg5MUDxzZY1uiJDG0ebWj8FzJqF05P_-Y9k3spC7TLe95MGRXiAw696SVyc" />
                     }
-                    @*</form>*@
+                
                     <a class="forgot-action" href="/Account/ForgotPassword">Forgot your password?</a>
                 </div>
                 <div class="foot-note">

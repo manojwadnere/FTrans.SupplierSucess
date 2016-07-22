@@ -243,6 +243,7 @@
     <Content Include="Content\semantic-ui\themes\github\assets\fonts\octicons-local.ttf" />
     <Content Include="Content\semantic-ui\themes\github\assets\fonts\octicons.ttf" />
     <Content Include="Content\semantic-ui\themes\github\assets\fonts\octicons.woff" />
+    <Content Include="Content\_sidenav.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -274,6 +275,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Sponsor\Index.cshtml" />
+    <Content Include="Views\Shared\_SideNav.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
